@@ -4,7 +4,6 @@ const docinhoSchema = new mongoose.Schema({
     id:{type: mongoose.Schema.Types.ObjectId},
     doce:{type: String, required: true},
     nome:{type: String},
-    quantidade:{type: String}
 }, {versionKey:false}
 );
 
